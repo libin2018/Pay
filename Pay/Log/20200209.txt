@@ -1,0 +1,6 @@
+2020-02-09 17:10:05,533 DEBUG Paying:{"Order_Id":null,"Order_OutTradeNO":"0b46dfe17e094b71a74abf96084af475","Order_Type":null,"Order_Price":"0.10","Order_Name":"£§0.10 ≤‚ ‘","Order_Status":"Created","Order_QRUrl":null,"Order_QRPrice":null,"Order_RedirectUrl":null,"Order_Extension":"test","Order_NickName":"libin","Order_Email":""} 
+
+2020-02-09 17:10:48,668 DEBUG Paying:{"Order_Id":null,"Order_OutTradeNO":"4e7a9440de3a4131804326453a0a3819","Order_Type":null,"Order_Price":"0.10","Order_Name":"£§0.10 ≤‚ ‘","Order_Status":"Created","Order_QRUrl":null,"Order_QRPrice":null,"Order_RedirectUrl":null,"Order_Extension":"test","Order_NickName":"libin","Order_Email":""} 
+
+2020-02-09 17:11:33,320 DEBUG Paying:{"Order_Id":null,"Order_OutTradeNO":"4e7a9440de3a4131804326453a0a3819","Order_Type":null,"Order_Price":"0.10","Order_Name":"£§0.10 ≤‚ ‘","Order_Status":"Created","Order_QRUrl":null,"Order_QRPrice":null,"Order_RedirectUrl":null,"Order_Extension":"test","Order_NickName":"libin","Order_Email":""} 
+

@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>个人收款系统</title>
+    <meta content="个人收款系统 支付宝" name="keywords" />
+    <meta content="个人收款系统 支付宝" name="description" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="/favicon.ico" rel="icon" type="image/png" />
+
+    <link href="/assets/css/animate.css" rel="stylesheet" />
+    <link href="/assets/css/iconfont.css" rel="stylesheet" />
+    @*<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">*@
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.1/magnific-popup.min.css" rel="stylesheet" />
+
+    <link href="/assets/css/bootsnav2.css" rel="stylesheet" />
+
+    <!--Theme custom css -->
+    <link href="/assets/css/style.css" rel="stylesheet" />
+
+    <!--Theme Responsive css-->
+    <link href="/assets/css/responsive.css" rel="stylesheet" />
+
+    @RenderSection("style", required: false)
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" style="background:#f1f2f7">
+    <div class="culmn">
+        <nav class="navbar navbar-default bootsnav navbar-fixed white on menu-center no-full no-background" style="border-bottom: solid 1px #e0e0e0;background-color: #fff;">
+            <div class="container">
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                        <li><a href="https://github.com/libin2018/pay" target="_blank" title="Github"><i class="fa fa-github" style="font-size:21px"></i></a></li>
+                        <li><a href="http://blog.wudikeji.cn" target="_blank" title="作者博客"><i class="fa fa-user-circle" style="font-size:18px"></i></a></li>
+                        <li><a><i class="fa fa-qrcode" data-container="body" data-content="<img src='/assets/images/qq-qr.png' width='200'>" data-html="true" data-placement="bottom" data-toggle="popover" data-trigger="hover" style="font-size:19px" title="" data-original-title="免费交流群 604713815"></i></a></li>
+                    </ul>
+                </div>
+                <!-- End Atribute Navigation -->
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-target="#navbar-menu" data-toggle="collapse" type="button">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index">
+                        个人收款系统
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+                <!-- navbar menu -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-center">
+                        <li><a href="/">首页</a></li>
+                        <li><a href="/Home/Pay">支付体验</a></li>
+                        <li><a href="/Home/Thanks">捐赠名单</a></li>
+                        <li><a href="http://crm.wudikeji.cn" target="_blank">SCRM系统</a></li>
+                        <li><a href="http://jq.wudikeji.cn" target="_blank">精品网站模板</a></li>
+                        <li><a href="http://copy.wudikeji.cn" target="_blank">匿名文件共享</a></li>
+                        <li><a href="https://github.com/libin2018/pay" target="_blank">开发教程</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        @RenderBody()
+        <div class="scrollup" style="display: none;">
+            <a href="#"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <footer class="footer bg-black" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-default bootsnav footer-menu no-background on menu-center no-full">
+                            <div class="container">
+                                <!-- Start Atribute Navigation -->
+                                <div class="attr-nav">
+                                    <ul>
+                                        <li>
+                                            <a href="https://github.com/libin2018/pay" target="_blank" title="Github">
+                                                <i class="fa fa-github" style="font-size:21px"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://blog.wudikeji.cn" target="_blank" title="作者博客">
+                                                <i class="fa fa-user-circle" style="font-size:18px"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <i class="fa fa-qrcode" data-container="body" data-content="<img src='/assets/images/qq-qr.png' width='150'>" data-html="true" data-placement="top" data-toggle="popover" data-trigger="hover" style="font-size:19px" title="" data-original-title="免费交流群 562962309"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- End Atribute Navigation -->
+                                <!-- Start Header Navigation -->
+                                <div class="navbar-header">
+                                    <button class="navbar-toggle" data-target="#navbar-footer" data-toggle="collapse" type="button">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+                                    <a class="navbar-brand" href="index">
+                                        个人收款系统
+                                    </a>
+                                </div>
+                                <!-- End Header Navigation -->
+                                <!-- navbar menu -->
+                                <div class="collapse navbar-collapse" id="navbar-footer">
+                                    <ul class="nav navbar-nav navbar-center">
+                                        <li><a href="/">首页</a></li>
+                                        <li><a href="/Home/Pay">支付体验</a></li>
+                                        <li><a href="/Home/Thanks">捐赠名单</a></li>
+                                        <li><a href="http://crm.wudikeji.cn" target="_blank">SCRM系统</a></li>
+                                        <li><a href="http://jq.wudikeji.cn" target="_blank">精品网站模板</a></li>
+                                        <li><a href="http://copy.wudikeji.cn" target="_blank">匿名文件共享</a></li>
+                                        <li><a href="https://github.com/libin2018/pay" target="_blank">开发教程</a></li>
+                                    </ul>
+                                </div><!-- /.navbar-collapse -->
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="col-md-12">
+                        <div class="main_footer text-center p-top-40 p-bottom-30">
+                            <p class="wow fadeInRight animated" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;">
+                                <a href="http://blog.wudikeji.cn/" target="_blank">pay.wudikeji.cn </a> ©2020. All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- JS includes -->
+    <!--<script src="assets/js/vendor/jquery-1.11.2.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!--<script src="assets/js/vendor/bootstrap.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <!--<script src="assets/js/jquery.magnific-popup.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.1/jquery.magnific-popup.min.js"></script>
+    <!--<script src="assets/js/jquery.easing.1.3.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.compatibility.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.min.js"></script>
+
+    <script src="/assets/js/jquery.collapse.js"></script>
+    <script src="/assets/js/bootsnav.js"></script>
+
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/jquery.cookie.js"></script>
+
+    @Scripts.Render("~/bundles/vue")
+
+    <script>
+
+        // QQ群
+        $("[data-toggle='popover']").popover();
+
+    </script>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

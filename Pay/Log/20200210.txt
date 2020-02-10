@@ -1,0 +1,58 @@
+2020-02-10 10:47:06,413 DEBUG Notify:{"Order_Id":null,"Order_OutTradeNO":null,"Order_Type":null,"Order_Price":null,"Order_Name":null,"Order_Status":null,"Order_QRUrl":null,"Order_QRPrice":"0.10","Order_RedirectUrl":null,"Order_Extension":null,"Order_NickName":null,"Order_Email":null} 
+
+2020-02-10 11:01:31,645 DEBUG Notify:{"Order_Id":null,"Order_OutTradeNO":null,"Order_Type":null,"Order_Price":null,"Order_Name":null,"Order_Status":null,"Order_QRUrl":null,"Order_QRPrice":"0.10","Order_RedirectUrl":null,"Order_Extension":null,"Order_NickName":null,"Order_Email":null} 
+
+2020-02-10 11:01:57,648 DEBUG Notify:{"Order_Id":null,"Order_OutTradeNO":null,"Order_Type":null,"Order_Price":null,"Order_Name":null,"Order_Status":null,"Order_QRUrl":null,"Order_QRPrice":"0.10","Order_RedirectUrl":null,"Order_Extension":null,"Order_NickName":null,"Order_Email":null} 
+
+2020-02-10 11:03:21,791 DEBUG Notify:{"Order_Id":null,"Order_OutTradeNO":null,"Order_Type":null,"Order_Price":null,"Order_Name":null,"Order_Status":null,"Order_QRUrl":null,"Order_QRPrice":"0.10","Order_RedirectUrl":null,"Order_Extension":null,"Order_NickName":null,"Order_Email":null} 
+
+2020-02-10 12:21:47,740 DEBUG Notify:{"Order_Id":null,"Order_OutTradeNO":null,"Order_Type":"alipay","Order_Price":null,"Order_Name":null,"Order_Status":null,"Order_QRUrl":null,"Order_QRPrice":"0.10","Order_RedirectUrl":null,"Order_Extension":null,"Order_NickName":null,"Order_Email":null,"Order_Sign":""} 
+
+2020-02-10 21:06:42,958 DEBUG GetQrCode:bb4ee357cec04d47849df0c86b93d9e5 
+
+2020-02-10 21:10:51,044 DEBUG GetQrCode:89957bbbaf8f4ef98648e0d17871e5db 
+
+2020-02-10 21:13:32,913 DEBUG GetQrCode:165ee76fb2364bc89ef12e46ac7afedd 
+
+2020-02-10 21:15:52,807 DEBUG GetQrCode:cfe0ba0324e34097a478aa010353b3d6 
+
+2020-02-10 21:16:44,214 DEBUG GetQrCode:d70acacdbc9c4e7daee3fa9972d24ff6 
+
+2020-02-10 21:16:55,641 DEBUG GetQrCode:b9fdd6bbb5804f988550758d16f6e9e9 
+
+2020-02-10 21:53:39,725 DEBUG GetQrCode:ebbf4056e25c449a86548410cda474b3 
+
+2020-02-10 21:55:44,310 DEBUG GetQrCode:2ed664e9c25543ca9d678ea1ada8cb40 
+
+2020-02-10 22:00:59,236 DEBUG GetQrCode:a29d72841d8748ceb9829dccda6538f0 
+
+2020-02-10 22:02:04,720 DEBUG GetQrCode:f4b61abad7bd4c91a0707b4fbe81afcc 
+
+2020-02-10 22:02:44,978 DEBUG GetQrCode:04647686287a4a7cbfbdfd07f61c230d 
+
+2020-02-10 22:03:48,567 DEBUG GetQrCode:431d11b4471c4193a9b42aa9b412d147 
+
+2020-02-10 22:04:13,537 DEBUG GetQrCode:f94d8ab4c97c4c4ba5b45dbb96d58533 
+
+2020-02-10 22:04:37,315 DEBUG GetQrCode:799c4e3e947e470985959fd41286dd2d 
+
+2020-02-10 22:04:48,264 DEBUG GetQrCode:e0d7422235634c30920c143fbdfb63df 
+
+2020-02-10 22:05:55,468 DEBUG GetQrCode:f4de49fe4ccc44f386ebb95405d31b9e 
+
+2020-02-10 22:07:02,162 DEBUG GetQrCode:e9f98ab8324341b0921d08caee90cb5f 
+
+2020-02-10 22:07:31,463 DEBUG GetQrCode:2d30482bae7f4edfaf136f3cdd3422ae 
+
+2020-02-10 22:08:23,977 DEBUG GetQrCode:8a3bc85ff22d4020bfdb48d4deb002dd 
+
+2020-02-10 22:08:40,754 DEBUG GetQrCode:5aab275c88f04a77bac05078eb9fc4d1 
+
+2020-02-10 22:13:13,185 DEBUG GetQrCode:11b3e318e1294f6d822221c79b8805a0 
+
+2020-02-10 22:13:31,264 DEBUG GetQrCode:4c826c320f764de7a37b5095af127a98 
+
+2020-02-10 22:14:12,291 DEBUG GetQrCode:5772b99b8aa44ea6a73b1e68b849cf80 
+
+2020-02-10 22:46:35,677 DEBUG GetQrCode:36193defdd44471ba91830b7bf8078c0 
+
